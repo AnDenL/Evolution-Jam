@@ -1,25 +1,30 @@
 using UnityEngine;
-using UnityEngine.Tilemaps;
-public class Cell : Tile
+
+public class Cell : MonoBehaviour
 {
-    [SerializeField] private int energyCost = 1;
-    [SerializeField] private int energyValue = 1;
-    [SerializeField] private float hitpoints;
-    public int EnergyCost => energyCost;
-    public int EnergyValue => energyValue;
-    public float Hitpoints => hitpoints;
-    public void OnClick()
+    [SerializeField] protected int health;
+    protected int maxHealth;
+
+    protected void Start()
     {
-        if (CellManagment.curEnergy >= energyCost)
-        {
-            CellManagment.curEnergy -= energyCost;
-            CellManagment.curEnergy += energyValue;
-            //CellManagment.Instance.UpdateEnergyValue();
-            // logic for placing
-        }
-        else
-        {
-            Debug.Log("Not enough energy to place this cell.");
-        }
+        maxHealth = health;
+    }
+
+    public virtual void TakeHit(int damage)
+    {
+        if (damage <= 0) return;
+        health -= damage;
+
+        if (health <= 0) Death();
+    }
+
+    public virtual void OnSelect()
+    {
+        
+    }
+
+    protected virtual void Death()
+    {
+        Destroy(gameObject);
     }
 }
