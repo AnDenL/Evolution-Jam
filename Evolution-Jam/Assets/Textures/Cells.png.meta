@@ -158,12 +158,12 @@ TextureImporter:
       name: Cells_0
       rect:
         serializedVersion: 2
-        x: 89
+        x: 78
         y: 1769
-        width: 501
+        width: 512
         height: 456
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,12 +180,12 @@ TextureImporter:
       name: Cells_1
       rect:
         serializedVersion: 2
-        x: 695
+        x: 674
         y: 1712
-        width: 503
+        width: 524
         height: 581
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -207,7 +207,7 @@ TextureImporter:
         width: 255
         height: 392
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -224,12 +224,12 @@ TextureImporter:
       name: Cells_3
       rect:
         serializedVersion: 2
-        x: 672
-        y: 1190
-        width: 528
+        x: 656
+        y: 1187
+        width: 545
         height: 496
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -251,7 +251,7 @@ TextureImporter:
         width: 406
         height: 361
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -268,12 +268,12 @@ TextureImporter:
       name: Cells_5
       rect:
         serializedVersion: 2
-        x: 138
-        y: 431
-        width: 341
-        height: 336
+        x: 64
+        y: 343
+        width: 502
+        height: 489
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -290,19 +290,19 @@ TextureImporter:
       name: Cells_6
       rect:
         serializedVersion: 2
-        x: 205
-        y: 764
-        width: 69
-        height: 68
+        x: 649
+        y: 697
+        width: 492
+        height: 474
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9eb079b0130567e70800000000000000
+      spriteID: ee7656efe313a7c48a8c488726008f88
       internalID: 9112559067608845289
       vertices: []
       indices: 
@@ -312,174 +312,20 @@ TextureImporter:
       name: Cells_7
       rect:
         serializedVersion: 2
-        x: 360
-        y: 759
-        width: 71
-        height: 70
+        x: 573
+        y: 17
+        width: 296
+        height: 351
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2c577d1bcdabdf140800000000000000
+      spriteID: a322470381ba4e848a374edcc087c071
       internalID: 4755162238612370882
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cells_8
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 668
-        width: 73
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4fb77b96e80d28280800000000000000
-      internalID: -9042435791728968716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cells_9
-      rect:
-        serializedVersion: 2
-        x: 468
-        y: 656
-        width: 73
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b87a8c12a468c3c10800000000000000
-      internalID: 2034648784617121675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cells_10
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 520
-        width: 63
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e19d1d342dbbbbb0800000000000000
-      internalID: -4919130204630314524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cells_11
-      rect:
-        serializedVersion: 2
-        x: 495
-        y: 533
-        width: 60
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b619ec998e8847c80800000000000000
-      internalID: -8325879278506962581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cells_12
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 384
-        width: 75
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9aa42be003f923af0800000000000000
-      internalID: -418096786638222679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cells_13
-      rect:
-        serializedVersion: 2
-        x: 287
-        y: 345
-        width: 60
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5467c613e71bb35e0800000000000000
-      internalID: -1928752859844938171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cells_14
-      rect:
-        serializedVersion: 2
-        x: 421
-        y: 391
-        width: 75
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a3a4215e24c6b0e30800000000000000
-      internalID: 4470786089662171706
       vertices: []
       indices: 
       edges: []
@@ -488,7 +334,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ea44d8182ae81de4aa17d0b899f61e63
     internalID: 0
     vertices: []
     indices: 

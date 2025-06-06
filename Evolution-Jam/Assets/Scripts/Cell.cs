@@ -5,7 +5,7 @@ public class Cell : MonoBehaviour
     [SerializeField] protected int health;
     protected int maxHealth;
 
-    protected void Start()
+    protected virtual void Start()
     {
         maxHealth = health;
     }
@@ -16,11 +16,6 @@ public class Cell : MonoBehaviour
         health -= damage;
 
         if (health <= 0) Death();
-    }
-
-    public virtual void OnSelect()
-    {
-        
     }
 
     protected virtual void Death()
